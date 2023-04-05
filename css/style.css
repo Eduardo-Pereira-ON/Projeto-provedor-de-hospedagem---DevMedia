@@ -1,0 +1,273 @@
+ *{
+  margin: 0;
+  padding:0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+.limitar-secao{
+  width: 100%;
+  margin: 0 auto;
+}
+.topo{
+  position: relative;
+  padding: 35px 0px;
+  
+}
+.cx-logo{
+  position:relative;
+  margin-left: 200px;
+}
+.cx-logo img{
+  width:80px;
+}
+.cx-logo div{
+  position: absolute;
+  top:0;
+  left: 95px;
+}
+.cx-logo p, .azul{
+  color: #2f86d6;
+  font-weight: 600;
+}
+.menu-nav{
+  position:absolute;
+  top: 65px;
+  right: 0px;
+  margin-right: 60px;
+}
+.menu-nav a {
+  font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
+/* Banner */
+.background-banner{
+  background-color: #2f86d6;
+}
+.banner{
+  position: relative;
+  padding: 180px 0px;
+}
+.banner div{  
+width: 470px;
+color: #fff;
+  margin-left:200px
+}
+.banner div h2 {
+    font-size: 28px;
+    line-height: 40px;
+    margin: 20px 0px;
+}
+.banner div p{
+  font-size: 16px;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+.banner img{
+  width: 470px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+  margin-right: 200px;
+}
+/* Primeiro anuncio */
+.primeiro-anuncio{
+  position: relative;
+  background-color: #23303e;
+  padding: 20px 0px;
+  height: 100px;
+}
+.primeiro-anuncio .cx-text{
+  width:600px;
+  color: #fff;
+  margin-left: 200px;
+}
+.cx-text{
+  position: relative;
+height: 80px;}
+.cx-text h2{
+  font-size: 26px;
+}
+.btn-tb{
+  padding: 15px;
+  background-color:#2f86d6 ;
+  position: absolute;
+  top:20px;
+  right: 0;
+  margin-right:200px;
+}
+.btn-tb a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.cx-text p{
+  padding: 0;
+  position: absolute;
+  top: 35px;
+}
+/* Secao informação */
+
+
+.secao-info{
+  padding: 100px 0px;
+  text-align: center;
+}
+.secao-info h2{
+  width: 900px;
+  font-size: 32px;
+  margin: 0px auto 60px;
+}
+.info-image{
+ display: flex;
+  width: 920px;
+  margin-left:auto ;
+margin-right: auto;
+}
+.info-image div img{
+  width: 100px; 
+  margin-left:auto ;
+  margin-right: auto
+}
+.info-image div{
+  width: 320px;
+
+}
+.info-image div h3{
+  margin: 20px;
+}
+.info-image div p{
+  width: 300px;
+}
+/* Seção Informações */
+
+.tb-planos {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f6f6f6;
+}
+h2{
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+table {
+  width: 900px;
+ border-radius: 4px;
+    margin: auto;
+    box-shadow: 0px 2px 40px 15px rgba(47,134,214,1);
+}
+table thead th {
+/*     text-align: center; */
+    padding: 20px 0px;
+    background-color: #fff;
+    border:1px solid #f6f6f6;
+}
+table thead th h3 {
+    margin-bottom: 20px;
+}
+table thead th img {
+    width: 100px;
+    margin: auto;
+}
+table thead th p {
+    max-width: 150px;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #a89f9f;
+}
+table tbody td {
+    width: 250px;
+    font-weight: 500;
+    padding: 15px;
+}
+.linha-impar {
+    background-color: #f6f6f6;
+}
+.linha-par {
+    background-color: #fff;
+}
+.tb-planos img{
+  width: 100px;
+}
+/* Segundo anuncio */
+.segundo-anuncio{
+  position: relative;
+  background-color:#2f86d6 ;
+  padding: 20px 0px;
+  height:150px;
+}
+.segundo-anuncio .cx-text{
+  width:600px;
+  color: #fff;
+  margin-left: 200px;
+}
+.segundo-anuncio .cx-text{
+  position: absolute;
+height: 80px;
+  top: 40px;
+}
+.segundo-anuncio .cx-text h2{
+  font-size: 26px;
+}
+.segundo-anuncio .btn-tb{
+  padding: 15px;
+  background-color: #23303e;
+  position: absolute;
+  top:45px;
+  right: 0;
+  margin-right:200px;
+}
+.segundo-anuncio .btn-tb a{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* Rodape */
+.rodape{
+  text-align: center;
+
+}
+.cx-rodape .cx-logo{
+  width: 320px;
+  height: 80px;
+  position: relative;
+  margin: 30px auto;
+}
+.cx-rodape .cx-logo img{
+  position: absolute;
+  left: 0;
+}
+.cx-rodape .cx-logo h1{
+  position: absolute;
+  left: 95px;
+}
+.cx-rodape .cx-logo p{
+  position: absolute;
+  top:45px;
+  left: 95px;
+}
+.text-rodape{
+  font-weight: bold;
+  line-height: 40px;
+  font-size: 18px;
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+
+
+footer{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+    color: black;
+  font-weight: bold;
+}
