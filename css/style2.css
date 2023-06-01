@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding:0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+.topo{
+  position: relative;
+  padding: 35px 0px;
+}
+.cx-logo{
+  background-color: yellow;
+  width: 300px;
+  position: relative;
+}
+.cx-logo img{
+  width:80px;
+}
+.text-log{
+  position: absolute;
+  top: 0;
+  left: 80px;
+}
+.header{
+  width: 100%;
+  background: blue;
+  position: relative;
+}
+.menu-nav{
+position:absolute;
+  top: 65px;
+  right: 0px;
+  margin-right: 60px; 
+} 
+.menu-nav a {
+  font-size: 18px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #233032;
+}
